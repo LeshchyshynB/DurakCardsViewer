@@ -6,6 +6,7 @@ root.geometry('900x500')
 root.resizable(False, False)
 root.title("|Durak checker, допомагає рахувати карти|")
 
+
 class Config():
 	def __init__(self):
 		self.btn1=Button(text='6♥',command=lambda: self.hide(0),font='Times 30', fg='red')
